@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularday2';
+
+  text: string = 'page one'
+
+  changeTitle() {
+    this.text = "page two"
+  }
+
 }

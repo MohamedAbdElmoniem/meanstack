@@ -1,0 +1,8 @@
+<div class="mainContainer">
+  <input type="text" (keyup)="handleFilter($event)" />
+  <div class="userStyle" *ngFor="let val of filteredArray">
+    <h1>{{ val.id }}</h1>
+    <h1>{{ val.name }}</h1>
+    <button (click)="removeUser(val.id)">X</button>
+  </div>
+</div>

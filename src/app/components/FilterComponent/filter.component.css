@@ -1,0 +1,14 @@
+.mainContainer {
+  height: 100%;
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.userStyle {
+  height: 100px;
+  background-color: thistle;
+  border: 1px dashed yellow;
+  margin: 5px;
+  font-size: 10px;
+}
